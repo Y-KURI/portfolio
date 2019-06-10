@@ -24,3 +24,6 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## deploy
 $ firebase deploy
 https://cli.vuejs.org/guide/deployment.html#firebase
+
+##site
+https://kuri-works.firebaseapp.com/
