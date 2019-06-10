@@ -2,24 +2,12 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        portfolio
-      </h1>
-      <h2 class="subtitle">
-        my portfolio site
+      <h2 class="title">
+        kuri works
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
+      <h3 class="subtitle">
+        portfolio
+      </h3>
     </div>
   </div>
 </template>
@@ -36,7 +24,6 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -49,7 +36,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -62,7 +49,4 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>

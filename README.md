@@ -20,3 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## deploy
+$ firebase deploy
+https://cli.vuejs.org/guide/deployment.html#firebase
