@@ -6,7 +6,7 @@
         kuri works
       </h2>
       <h3 class="subtitle">
-        portfolio,kurihara栗原
+        portfolio
       </h3>
     </div>
   </div>
@@ -23,14 +23,6 @@ export default {
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .title {
   display: block;
   font-weight: 300;

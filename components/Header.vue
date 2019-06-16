@@ -11,17 +11,15 @@
 </template>
 
 <style>
-
 .header {
-  /* width: 100%; */
   background-color: #41b883;
 }
 
 .gnav__items {
   display: flex;
   width: 100%;
+  padding: 0;
 }
-
 .gnav__item {
   flex: 1;
   list-style: none;
@@ -32,7 +30,6 @@
   height: 70px;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -41,6 +38,11 @@
 
 .gnav__link:hover {
   background-color: gold;
+}
+
+.nuxt-link-exact-active {
+  background: #F5F5F5;
+  color: #41b883;
 }
 
 </style>

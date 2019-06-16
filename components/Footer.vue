@@ -5,17 +5,16 @@
 </template>
 
 <style>
-  .footer {
-    display: flex;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 61px;
-    background-color: #41b883;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-  }
+.footer {
+  display: flex;
+  width: 100%;
+  height: 61px;
+  background-color: #41b883;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 0;
+}
 </style>

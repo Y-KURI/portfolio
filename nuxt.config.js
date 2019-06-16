@@ -35,7 +35,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Build configuration
