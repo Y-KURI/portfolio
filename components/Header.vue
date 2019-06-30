@@ -2,10 +2,10 @@
   <nav class="header">
     <ul class="gnav__items">
       <li class="gnav__item" ><nuxt-link  class="gnav__link" to="/">Top</nuxt-link></li>
-      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="about">About</nuxt-link></li>
-      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="works">Works</nuxt-link></li>
-      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="skills">Skills</nuxt-link></li>
-      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="contact">Contact</nuxt-link></li>
+      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="/about">About</nuxt-link></li>
+      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="/works">Works</nuxt-link></li>
+      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="/skills">Skills</nuxt-link></li>
+      <li class="gnav__item" ><nuxt-link  class="gnav__link" to="/contact">Contact</nuxt-link></li>
     </ul>
   </nav>
 </template>
