@@ -25,12 +25,12 @@
             <v-btn flat>
               <a class="ex_link" v-bind:href="work.src_link">src</a></v-btn>
             <v-spacer></v-spacer>
-            <v-btn icon @click="show = !show">
-              <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
+            <v-btn icon @click="work.show = !work.show">
+              <v-icon>{{ work.show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
             </v-btn>
           </v-card-actions>
           <v-slide-y-transition>
-            <v-card-text v-show="show" v-model="works">
+            <v-card-text v-show="work.show">
               {{ work.desc }}
             </v-card-text>
           </v-slide-y-transition>
@@ -44,7 +44,6 @@
 export default {
   el: '#app',
   data: () => ({
-    show: false,
     works: [
       {
         id: 1,
@@ -53,7 +52,8 @@ export default {
         summary: 'アイデア共有アプリ',
         desc: '新しいサービスのアイデアをエレベータピッチの手法でまとめ、共有出来るRailsアプリ。プロダクトのCRUDとそのプロダクトの公開ステータスと閲覧権限ユーザー保持まで実装。デモです。',
         app_link: 'https://ep-hub.herokuapp.com/',
-        src_link: 'https://github.com/Y-KURI/ep_hub'
+        src_link: 'https://github.com/Y-KURI/ep_hub',
+        show: false
       },
       {
         id: 2,
@@ -62,7 +62,8 @@ export default {
         summary: 'TODOアプリ',
         desc: '任意のフォルダごとにTODOを登録できるLaravelアプリ。着手ステータス、期限、ユーザー認証機能。',
         app_link: 'https://todo-laravelapp.herokuapp.com/',
-        src_link: 'https://github.com/Y-KURI/todo_laravel'
+        src_link: 'https://github.com/Y-KURI/todo_laravel',
+        show: false
       }
     ]
   })
