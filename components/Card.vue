@@ -60,9 +60,19 @@ export default {
         img_src: require('~/assets/todo_app.png'),
         title: 'TODO',
         summary: 'TODOアプリ',
-        desc: '任意のフォルダごとにTODOを登録できるLaravelアプリ。着手ステータス、期限、ユーザー認証機能。',
+        desc: 'Laravel案件学習用TODOアプリ。任意のフォルダごとにTodoを登録出来、着手ステータス、期限、ユーザー認証機能。チュートリアルを参考に改造中',
         app_link: 'https://todo-laravelapp.herokuapp.com/',
         src_link: 'https://github.com/Y-KURI/todo_laravel',
+        show: false
+      },
+      {
+        id: 3,
+        img_src: require('~/assets/portfolio.png'),
+        title: 'Portfolio(here!)',
+        summary: 'Nuxtによるポートフォリオサイト',
+        desc: 'Google fonts, flexboxを使用。vueとfirebaseをお試し中。',
+        app_link: 'https://kuri-works.firebaseapp.com/',
+        src_link: 'https://github.com/Y-KURI/portfolio',
         show: false
       }
     ]
