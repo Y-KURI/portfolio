@@ -18,14 +18,14 @@ export default {
   data: () => ({
     langs:	[
       { name: 'HTML' },
-      { name: 'css' },
-      { name: 'javascript' },
+      { name: 'CSS' },
+      { name: 'JavaScript' },
       { name: 'Ruby' },
       { name: 'Python' } ],
     frameworks:	[
       { name: 'Rails' },
       { name: 'Bootstrap' },
-      { name: 'Vuejs' }]
+      { name: 'Vue.js' }]
   })
 
 }
